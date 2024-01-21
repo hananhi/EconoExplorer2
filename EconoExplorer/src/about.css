@@ -1,0 +1,105 @@
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #090929, #ffc40c);
+    color: #fff;
+    width: 1417px;
+}
+
+.about-us-header {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left; /* Align the text to the left */
+    margin-left: 10px; /* Add left margin */
+}
+
+.about-us-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.about-us-header p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify; /* Justify the text */
+}
+
+.about-us-main {
+    max-width: 800px;
+    /* margin: 0 auto; Remove this line */
+}
+
+.about-us-section {
+    margin-bottom: 40px;
+    text-align: left; /* Align the text to the left */
+    margin-left: 30px; /* Add left margin */
+}
+
+.about-us-section h2 {
+    color: #ffc107;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-us-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify; /* Justify the text */
+}
+
+.about-us-footer {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: left; /* Align the text to the left */
+}
+
+.about-us-footer h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.about-us-footer p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify; /* Justify the text */
+}
+
+.about-us-footer a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-us-footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    .about-us-container {
+        padding: 10px;
+        max-width: 460px;
+    }
+
+    .about-us-header,
+    .about-us-section,
+    .about-us-footer {
+        margin-left: 0;
+        max-width: 450px;
+    }
+
+    .about-us-header h1,
+    .about-us-section h2,
+    .about-us-footer h1 {
+        font-size: 2em;
+        max-width: 450px;
+    }
+
+    .about-us-header p,
+    .about-us-section p,
+    .about-us-footer p {
+        font-size: 1em;
+        max-width: 450px;
+    }
+
+}
